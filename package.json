@@ -1,0 +1,38 @@
+{
+  "name": "my-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "16": "^0.0.2",
+    "@emotion/react": "^11.14.0",
+    "@sendgrid/mail": "^7.0.1",
+    "dotenv": "^8.2.0",
+    "gray-matter": "^4.0.2",
+    "lottie-react": "^2.4.1",
+    "next": "9.3.5",
+    "next-seo": "^4.4.0",
+    "react": "18",
+    "react-awesome-reveal": "^4.3.1",
+    "react-dom": "18",
+    "react-hook-form": "^5.5.3",
+    "react-icons": "^5.5.0",
+    "react-lazyload": "^2.6.7",
+    "react-multi-carousel": "^2.5.5",
+    "react-scroll": "^1.7.16",
+    "react-to-print": "^3.0.5",
+    "styled-breakpoints": "^8.1.0",
+    "styled-components": "^5.1.0"
+  },
+  "resolutions": {
+    "**/styled-components": "5.1.0"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.10.7",
+    "cross-env": "^7.0.3"
+  }
+}
