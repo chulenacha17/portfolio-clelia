@@ -2,6 +2,6 @@ require('dotenv').config();
 
 module.exports = {
   env: {
-    SENDGRID_API_KEY: process.env.SENDGRID_API_KEY,
+    // SENDGRID_API_KEY: process.env.SENDGRID_API_KEY, // eliminado porque no está definido
   },
 };
